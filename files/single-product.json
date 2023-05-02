@@ -1,0 +1,531 @@
+{
+  "products": [
+    {
+      "id": "fila-snow-crab",
+      "title": "Філадельфія зі сніжним крабом сурімі",
+      "image": "./../img/rolls/fila-snow-crab.jpg",
+      "price": 240,
+      "quantity": 8,
+      "weight": 310,
+      "category": "rolls",
+      "ingredients": [
+        "Норі",
+        "Рис",
+        "Сир 'Філадельфія'",
+        "Краб сурімі",
+        "Огірок",
+        "Лосось"
+      ]
+    },
+    {
+      "id": "fila-tuna-cucumber",
+      "title": "Філадельфія з тунцем та огірком",
+      "image": "./../img/rolls/fila-tuna-cucumber.png",
+      "price": 199,
+      "quantity": 8,
+      "weight": 285,
+      "category": "rolls",
+      "ingredients": ["Рис", "Норі", "Сир 'Філадельфія'", "Огірок", "Тунець"]
+    },
+    {
+      "id": "fila-salmon-avocado",
+      "title": "Філадельфія з лососем та авокадо",
+      "image": "./../img/rolls/fila-salmon.jpg",
+      "price": 199,
+      "quantity": 8,
+      "weight": 270,
+      "category": "rolls",
+      "ingredients": ["Норі", "Рис", "Сир 'Філадельфія'", "Лосось", "Авокадо"]
+    },
+    {
+      "id": "fila-eel",
+      "title": "Філадельфія з вугром",
+      "image": "./../img/rolls/fila-eel.jpg",
+      "price": 219,
+      "quantity": 8,
+      "weight": 285,
+      "category": "rolls",
+      "ingredients": ["Норі", "Рис", "Сир 'Філадельфія'", "Огірок", "Вугор"]
+    },
+    {
+      "id": "fila-double-hesse",
+      "title": "Філадельфія Double Cheese",
+      "image": "./../img/rolls/fila-double-cheese.jpg",
+      "price": 245,
+      "quantity": 8,
+      "weight": 345,
+      "category": "rolls",
+      "ingredients": [
+        "Норі",
+        "Рис",
+        "Сир 'Філадельфія' (подвійна порція)",
+        "Лосось",
+        "Авокадо"
+      ]
+    },
+    {
+      "id": "panda-roll",
+      "title": "Панда рол",
+      "image": "./../img/rolls/panda.jpg",
+      "price": 189,
+      "quantity": 8,
+      "weight": 260,
+      "category": "rolls",
+      "ingredients": [
+        "Норі",
+        "Рис",
+        "Сир 'Філадельфія' (подвійна порція)",
+        "Обпалений лосось",
+        "Салат",
+        "Огірок"
+      ]
+    },
+    {
+      "id": "california-marinaded-salmon-onion-sause-spicy",
+      "title": "Каліфорнія з маринованим лососем, цибулею та соусом Spicy",
+      "image": "./../img/rolls/california-salmon-onion.jpg",
+      "price": 199,
+      "quantity": 8,
+      "weight": 260,
+      "category": "rolls",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Маринований лосось",
+        "Цибуля",
+        "Авокадо",
+        "Огірок",
+        "Салат",
+        "Сир 'Філадельфія'",
+        "Кунжут"
+      ]
+    },
+    {
+      "id": "california-salmon-kunjut",
+      "title": "Каліфорнія з лососем у кунжуті",
+      "image": "./../img/rolls/california-salmon-kundjut.jpg",
+      "price": 189,
+      "quantity": 8,
+      "weight": 270,
+      "category": "rolls",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Лосось",
+        "Огірок",
+        "Сир 'Філадельфія'",
+        "Кунжут",
+        "Авокадо"
+      ]
+    },
+    {
+      "id": "california-vege",
+      "title": "Каліфорнія Vege",
+      "image": "./../img/rolls/california-vege.jpg",
+      "price": 149,
+      "quantity": 8,
+      "weight": 270,
+      "category": "rolls",
+      "ingredients": [
+        "Норі",
+        "Рис",
+        "Кунжут",
+        "Сир 'Філадельфія'",
+        "Сир 'Айсберг'",
+        "Авокадо",
+        "Огірок",
+        "Манго"
+      ]
+    },
+    {
+      "id": "alaska-marinaded-salmon-onion-fila-cucmber",
+      "title": "Аляска рол з маринованим лососем, цибулею, сиром філадельфія, огірком",
+      "image": "./../img/rolls/california-salmon-onion-cheesee.jpg",
+      "price": 179,
+      "quantity": 8,
+      "weight": 260,
+      "category": "rolls",
+      "ingredients": [
+        "Норі",
+        "Рис",
+        "Сир 'Філадельфія'",
+        "Маринований лосось",
+        "Цибуля",
+        "Огірок"
+      ]
+    },
+
+    {
+      "id": "futomak-tuna-fila-salad-mango-cucmber",
+      "title": "Футомак з тунцем, сиром філадельфія, салатом, манго та огірком",
+      "image": "./../img/maki/futomak-tuna-fila-salad-cucumber.jpg",
+      "price": 189,
+      "quantity": 8,
+      "weight": 270,
+      "category": "maki",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Тунець",
+        "Сир 'Філадельфія'",
+        "Салат “Айсберг",
+        "Манго",
+        "Огірок"
+      ]
+    },
+    {
+      "id": "futomak-tuna-spicy-maines",
+      "title": "Футомак з тунцем та спайсі майонезом",
+      "image": "./../img/maki/futomak-tuna-spacy.jpg",
+      "price": 179,
+      "quantity": 8,
+      "weight": 285,
+      "category": "maki",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Тунець",
+        "Огірок",
+        "Манго",
+        "Салат “Айсберг",
+        "Сир 'Філадельфія'",
+        "Спайсі майонез"
+      ]
+    },
+    {
+      "id": "futomak-marinaded-salmon",
+      "title": "Футомак з маринованим лососем",
+      "image": "./../img/maki/futomak-marinated-salmon.jpg",
+      "price": 169,
+      "quantity": 8,
+      "weight": 260,
+      "category": "maki",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Сир 'Філадельфія'",
+        "Салат",
+        "Огірок",
+        "Маринований лосось"
+      ]
+    },
+    {
+      "id": "futomak-salmon-salad-fila-avocado",
+      "title": "Футомак з лососем, салатом, сиром філадельфія, авокадо",
+      "image": "./../img/maki/futomak-salmon-fila-avocado.jpg",
+      "price": 189,
+      "quantity": 8,
+      "weight": 270,
+      "category": "maki",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Лосось",
+        "Салат “Айсберг",
+        "Сир 'Філадельфія'",
+        "Авокадо",
+        "Огірок"
+      ]
+    },
+    {
+      "id": "futomak-vege",
+      "title": "Футомак Vege",
+      "image": "./../img/maki/futomak-vege.jpg",
+      "price": 149,
+      "quantity": 8,
+      "weight": 270,
+      "category": "maki",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Сир 'Філадельфія'",
+        "Салат “Айсберг",
+        "Авокадо",
+        "Огірок",
+        "Манго"
+      ]
+    },
+    {
+      "id": "maki-tuna",
+      "title": "Макі з тунцем",
+      "image": "./../img/maki/maki-tuna.jpg",
+      "price": 129,
+      "quantity": 8,
+      "weight": 165,
+      "category": "maki",
+      "ingredients": ["Рис", "Норі", "Тунець"]
+    },
+    {
+      "id": "maki-cucmber-kunjut",
+      "title": "Макі з огірком та кунжутом",
+      "image": "./../img/maki/maki-cucmbed-cunjut.jpg",
+      "price": 45,
+      "quantity": 8,
+      "weight": 175,
+      "category": "maki",
+      "ingredients": ["Рис", "Норі", "Огірок", "Кунжут"]
+    },
+    {
+      "id": "maki-marinaded-salmon",
+      "title": "Макі з маринованим лососем",
+      "image": "./../img/maki/maki-marinaded-salmon.jpg",
+      "price": 129,
+      "quantity": 8,
+      "weight": 155,
+      "category": "Макі",
+      "ingredients": ["Рис", "Норі", "Маринований лосось"]
+    },
+    {
+      "id": "maki-salmon-avocado",
+      "title": "Макі з лососем та авокадо",
+      "image": "./../img/maki/maki-salmon-avocado.jpg",
+      "price": 149,
+      "quantity": 8,
+      "weight": 175,
+      "category": "maki",
+      "ingredients": ["Рис", "Норі", "Лосось", "Авокадо"]
+    },
+    {
+      "id": "maki-salmon",
+      "title": "Макі з лососем",
+      "image": "./../img/maki/maki-salmon.jpg",
+      "price": 119,
+      "quantity": 8,
+      "weight": 155,
+      "category": "maki",
+      "ingredients": ["Рис", "Норі", "Лосось"]
+    },
+    {
+      "id": "maki-avocado-fila",
+      "title": "Макі з авокадо та сиром філадельфія",
+      "image": "./../img/maki/maki-avocado-fila.jpg",
+      "price": 39,
+      "quantity": 8,
+      "weight": 175,
+      "category": "maki",
+      "ingredients": ["Рис", "Норі", "Сир 'Філадельфія'", "Авокадо"]
+    },
+
+    {
+      "id": "set-fila-hot",
+      "title": "Філадельфія сет Hot",
+      "image": "./../img/sets/set-fila-hot.jpg",
+      "price": 629,
+      "quantity": 24,
+      "weight": 840,
+      "category": "sets",
+      "ingredients": [
+        "8 x Філадельфія з лососем (обпалені)",
+        "8 x Філадельфія з тунцем (обпалені)",
+        "8 x Філадельфія з вугром (обпалені)"
+      ]
+    },
+    {
+      "id": "set-fila",
+      "title": "Філадельфія сет",
+      "image": "./../img/sets/set-fila.jpg",
+      "price": 599,
+      "quantity": 24,
+      "weight": 840,
+      "category": "sets",
+      "ingredients": [
+        "8 x Філадельфія з лососем",
+        "8 x Філадельфія з тунцем",
+        "8 x Філадельфія з вугром"
+      ]
+    },
+    {
+      "id": "set-favourite",
+      "title": "Сет улюблений",
+      "image": "./../img/sets/set-favorite.jpg",
+      "price": 1000,
+      "quantity": 48,
+      "weight": 1450,
+      "category": "sets",
+      "ingredients": [
+        "8 x Філадельфія з лососем",
+        "8 x Філадельфія з тунцем",
+        "8 x Філадельфія з вугром",
+        "8 х Каліфорнія з лососем",
+        "8 х Макі з лососем та авокадо",
+        "8 x Макі з тунцем"
+      ]
+    },
+    {
+      "id": "set-for-two",
+      "title": "Сет на двох",
+      "image": "./../img/sets/set-for-two.jpg",
+      "price": 499,
+      "quantity": 32,
+      "weight": 985,
+      "category": "sets",
+      "ingredients": [
+        "8 x Філадельфія з лососем та авокадо",
+        "8 x Каліфорнія з лососем у кунжуті",
+        "8 x Футомак з лососем",
+        "8 x Макі з огірком"
+      ]
+    },
+    {
+      "id": "set-middle",
+      "title": "Середній сет",
+      "image": "./../img/sets/set-middle.jpg",
+      "price": 549,
+      "quantity": 40,
+      "weight": 1035,
+      "category": "sets",
+      "ingredients": [
+        "8 x Філадельфія з лососем та авокадо",
+        "8 x Каліфорнія з лососем у кунжуті",
+        "8 x Макі з лососем",
+        "8 x Макі з тунцем",
+        "8 x Макі з огірком"
+      ]
+    },
+    {
+      "id": "set-mix",
+      "title": "Мікс сет",
+      "image": "./../img/sets/set-mix.jpg",
+      "price": 669,
+      "quantity": 42,
+      "weight": 1235,
+      "category": "sets",
+      "ingredients": [
+        "8 x Філадельфія з лососем та авокадо",
+        "2 x Суші з вугрем",
+        "8 x Філадельфія з тунцем",
+        "8 x Футомак з маринованим лососем",
+        "8 x Макі з авокадо",
+        "8 x Макі з лососем"
+      ]
+    },
+    {
+      "id": "set-vege",
+      "title": "Вегетаріанський сет",
+      "image": "./../img/sets/set-fege.jpg",
+      "price": 319,
+      "quantity": 26,
+      "weight": 690,
+      "category": "sets",
+      "ingredients": [
+        "2 x Суші з авокадо (нігірі)",
+        "8 x Каліфорнія Vege",
+        "8 x Макі з огірком і кунжутом",
+        "8 x Макі з авокадо та сиром філадельфія"
+      ]
+    },
+    {
+      "id": "set-spicy",
+      "title": "Spicy сет",
+      "image": "./../img/sets/set-spicy.jpg",
+      "price": 599,
+      "quantity": 26,
+      "weight": 915,
+      "category": "sets",
+      "ingredients": [
+        "8 x Футомак з тунцем та спайсі майонезом",
+        "2 x Суші з вугрем та гострим соусом теріякі (нігірі)",
+        "8 х Філадельфія з лососем та авокадо",
+        "8 x Каліфорнія з маринованим лососем, цибулею, авокадо, огірком, сиром Філадельфія та соусом Spicy"
+      ]
+    },
+
+    {
+      "id": "sushi-salmon-fry",
+      "title": "Суші з лососем (обпалені)",
+      "image": "./../img/sushi/sushi-salmon.jpg",
+      "price": 49,
+      "quantity": 1,
+      "weight": 40,
+      "category": "sushi",
+      "ingredients": ["Рис", "Лосось"]
+    },
+    {
+      "id": "sushi-salmon",
+      "title": "Суші з лососем",
+      "image": "./../img/sushi/sushi-salmon.jpg",
+      "price": 45,
+      "quantity": 1,
+      "weight": 40,
+      "category": "sushi",
+      "ingredients": ["Рис", "Лосось"]
+    },
+    {
+      "id": "sushi-eel",
+      "title": "Суші з вугром (нігірі)",
+      "image": "./../img/sushi/sushi-eel.jpg",
+      "price": 55,
+      "quantity": 1,
+      "weight": 40,
+      "category": "sushi",
+      "ingredients": ["Рис", "Норі", "Вугор"]
+    },
+    {
+      "id": "sushi-eel-teriyaki-spicy",
+      "title": "Суші з вугрем та гострим соусом теріякі",
+      "image": "./../img/sushi/sushi-eel.jpg",
+      "price": 59,
+      "quantity": 1,
+      "weight": 40,
+      "category": "sushi",
+      "ingredients": [
+        "Рис",
+        "Норі",
+        "Вугор",
+        "Соус теріякі",
+        "Гострий соус срирачі"
+      ]
+    },
+    {
+      "id": "sushi-avocado",
+      "title": "Суші з авокадо (нігірі)",
+      "image": "./../img/sushi/sushi-avocado.jpg",
+      "price": 39,
+      "quantity": 1,
+      "weight": 35,
+      "category": "sushi",
+      "ingredients": ["Рис", "Норі", "Вугор", "Авокадо"]
+    },
+    {
+      "id": "sushi-gunkan",
+      "title": "Гункан з тартаром, лососем та соусом Chilly",
+      "image": "./../img/sushi/sushi-guncan.jpg",
+      "price": 65,
+      "quantity": 1,
+      "weight": 50,
+      "category": "sushi",
+      "ingredients": ["Рис", "Норі", "Лосось", "Соус теріякі", "Соус Chilly"]
+    },
+
+    {
+      "id": "apple-juice",
+      "title": "Сік яблучний 1л",
+      "image": "./../img/drinks/apple-juice.jpg",
+      "price": 65,
+      "quantity": 1,
+      "weight": 1000,
+      "category": "drinks",
+      "ingredients": [""]
+    },
+    {
+      "id": "multi-juice",
+      "title": "Сік мультифруктовий 1л",
+      "image": "./../img/drinks/multy-juice.jpg",
+      "price": 65,
+      "quantity": 1,
+      "weight": 1000,
+      "category": "drinks",
+      "ingredients": [""]
+    },
+    {
+      "id": "orange-juice",
+      "title": "Сік апельсиновий 1л",
+      "image": "./../img/drinks/orange-juice.jpg",
+      "price": 65,
+      "quantity": 1,
+      "weight": 1000,
+      "category": "drinks",
+      "ingredients": [""]
+    }
+  ]
+}
