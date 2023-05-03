@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- head -->
+
+<head>
+	<title>Картка товару</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230503172142">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- head -->
+
+<body>
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header-top__body body-top">
+						<div class="body-top__text _icon-location">
+							<a href="https://goo.gl/maps/mUPrznuu8TijBhZMA" class="body-top__link">
+								м. Дніпро
+							</a>
+						</div>
+						<div class="body-top__text">
+							<p>
+								Часи роботи: з
+								<span>10:00</span>
+								до
+								<span>21:30</span>
+							</p>
+						</div>
+						<div class="body-top__text">
+							<p>
+								Працюємо
+								<span>без вихідних!</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="header__mid">
+					<div class="header-mid__body body-mid">
+						<div class="body-mid__phones">
+							<ul class="body-mid__list">
+								<li class="body-mid__item">
+									<a href="tel:+380501018565" class="body-mid__link _icon-phone">
+										<span>+38 (050) 101 8565</span>
+									</a>
+								</li>
+								<li class="body-mid__item">
+									<a href="tel:+380730585857" class="body-mid__link _icon-phone">
+										<span>+38 (073) 058 5857</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="body-mid__link-insta _icon-instagramm-header">
+							<a href="https://www.instagram.com/grain_of_rice_dp/" target="_blank">
+								<span>@grain_of_rice_dp</span>
+							</a>
+						</div>
+						<div class="body-mid__link-telega _icon-telegramm-header">
+							<a href="https://t.me/grain_of_rice_ua" target="_blank">
+								<span>@grain_of_rice_dp</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__bot">
+					<div class="header-bot__body body-bot">
+						<div class="body-bot__logo">
+							<a href="./index.html">
+								<img src="img/icon/logo.svg" alt="logo" />
+							</a>
+						</div>
+						<div class="body-bot__cart cart-body">
+							<a href="./cart-page.html" id="add-to-cart" class="cart-body__link _icon-cart">
+								<span id="cart-total">0 ₴</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- header -->
+
+		<main class="page page__single">
+			<div class="page__container">
+				<nav class="page__breadcrumbs breadcrumbs">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a href="index.html" class="breadcrumbs__link">Головна</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a href="#!" class="breadcrumbs__link">Роли</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__current product-name"></span>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- single cart -->
+			<div class="product__main main-product __container">
+				<div class="main-product__images-ibg">
+					<img id="product-image" class="product-image" src="" alt="image" />
+					<!-- <div id="modal">
+              <img src="" />
+            </div> -->
+				</div>
+				<div class="main-product__body body-product">
+					<h3 class="body-product__title product-title"></h3>
+					<p class="body-product__price product-price text"></p>
+					<p class="body-product__count product-quantity text"></p>
+					<p class="body-product__weight product-weight text"></p>
+					<p hidden class="product-id"></p>
+					<div class="body-product__composition product-ingredients list"></div>
+					<div data-quantity class="body-product__quantity quantity">
+						<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+						<div class="quantity__input">
+							<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1" />
+						</div>
+						<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+					</div>
+					<div class="action-body__cart">
+						<p hidden class="product-id-two"></p>
+						<p hidden class="price-console"></p>
+						<button class="to-cart">В кошик</button>
+					</div>
+				</div>
+			</div>
+			<!-- single cart -->
+
+			<!-- similar product block -->
+			<div class="similar-products">
+				<div class="similar-products__container">
+					<div class="similar-products__title">
+						<h3>Схожі товари</h3>
+					</div>
+					<div class="product-page__items similar-product">
+						<!-- panda roll -->
+						<div class="similar-product__item item-product">
+							<div class="item-product__image-ibg">
+								<picture><source srcset="img/rolls/panda.webp" type="image/webp"><img src="img/rolls/panda.jpg" alt="image" /></picture>
+							</div>
+							<div class="item-product__title">
+								<h3>Панда рол</h3>
+							</div>
+							<div class="item-product__info">260 г</div>
+							<div class="item-product__action action-body">
+								<div class="action-body__cart">
+									<a href="#!" class="to-cart">В кошик</a>
+								</div>
+								<div class="action-body__price">189.00 ₴</div>
+							</div>
+						</div>
+						<!-- panda roll -->
+
+						<!-- california salmon onion spicy -->
+						<div class="similar-product__item item-product">
+							<div class="item-product__image-ibg">
+								<picture><source srcset="img/rolls/california-salmon-onion.webp" type="image/webp"><img src="img/rolls/california-salmon-onion.jpg" alt="image" /></picture>
+							</div>
+							<div class="item-product__title">
+								<h3>
+									Каліфорнія з маринованим лососем, цибулею та соусом Spicy
+								</h3>
+							</div>
+							<div class="item-product__info">260 г</div>
+							<div class="item-product__action action-body">
+								<div class="action-body__cart">
+									<a href="#!" class="to-cart">В кошик</a>
+								</div>
+								<div class="action-body__price">199.00 ₴</div>
+							</div>
+						</div>
+						<!-- california salmon onion spicy -->
+
+						<!-- california vege -->
+						<div class="similar-product__item item-product">
+							<div class="item-product__image-ibg">
+								<picture><source srcset="img/rolls/california-vege.webp" type="image/webp"><img src="img/rolls/california-vege.jpg" alt="image" /></picture>
+							</div>
+							<div class="item-product__title">
+								<h3>Каліфорнія Vege</h3>
+							</div>
+							<div class="item-product__info">270 г</div>
+							<div class="item-product__action action-body">
+								<div class="action-body__cart">
+									<a href="#!" class="to-cart">В кошик</a>
+								</div>
+								<div class="action-body__price">149.00 ₴</div>
+							</div>
+						</div>
+						<!-- california vege -->
+
+						<!-- california salmon kundjut -->
+						<div class="similar-product__item item-product">
+							<div class="item-product__image-ibg">
+								<picture><source srcset="img/rolls/california-salmon-kundjut.webp" type="image/webp"><img src="img/rolls/california-salmon-kundjut.jpg" alt="image" /></picture>
+							</div>
+							<div class="item-product__title">
+								<h3>Каліфорнія з лососем у кунжуті</h3>
+							</div>
+							<div class="item-product__info">270 г</div>
+							<div class="item-product__action action-body">
+								<div class="action-body__cart">
+									<a href="#!" class="to-cart">В кошик</a>
+								</div>
+								<div class="action-body__price">189.00 ₴</div>
+							</div>
+						</div>
+						<!-- california salmon kundjut -->
+					</div>
+				</div>
+			</div>
+			<!-- similar product block -->
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<a href="#!"><img src="img/icon/logo.svg" alt="logo" /></a>
+				</div>
+				<div class="footer__contacts contacts-footer">
+					<div class="contacts-footer__title">
+						<h4>Контакти</h4>
+					</div>
+					<div class="contacts-footer__phone">
+						<a href="tel:+380501018565" class="body-mid__link _icon-phone">
+							<span>+38 (050) 101 8565</span>
+						</a>
+					</div>
+					<div class="contacts-footer__phone">
+						<a href="tel:+380730585857" class="body-mid__link _icon-phone">
+							<span>+38 (073) 058 5857</span>
+						</a>
+					</div>
+					<div class="contacts-footer__adress _icon-location">
+						<a href="https://goo.gl/maps/MSR1exfDL59ojxfi8">вул Дунаєвського, 32</a>
+					</div>
+					<div class="contacts-footer__insta _icon-instagramm-header">
+						<a href="https://www.instagram.com/grain_of_rice_dp/" target="_blank">
+							<span>@grain_of_rice_dp</span>
+						</a>
+					</div>
+					<div class="contacts-footer__telega _icon-telegramm-header">
+						<a href="https://t.me/grain_of_rice_ua" target="_blank">
+							<span>@grain_of_rice_dp</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- footer -->
+	</div>
+	<!-- script -->
+	<script>
+		function showModal(img) {
+			var modal = document.getElementById("modal");
+			var modalImg = modal.getElementsByTagName("img")[0];
+			modal.style.display = "block";
+			modalImg.src = img.src;
+			modal.onclick = function() {
+				modal.style.display = "none";
+			};
+		}
+	</script>
+	<!-- script -->
+
+	<!-- script -->
+	<script src="js/app.min.js?_v=20230503172142"></script>
+	<!-- script -->
+</body>
+
+</html>
