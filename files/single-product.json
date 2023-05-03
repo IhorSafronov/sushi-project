@@ -103,7 +103,7 @@
     {
       "id": "california-salmon-kunjut",
       "title": "Каліфорнія з лососем у кунжуті",
-      "image": "./../img/rolls/california-salmon-kundjut.jpg",
+      "image": "./img/rolls/california-salmon-kundjut.jpg",
       "price": 189,
       "quantity": 8,
       "weight": 270,
@@ -121,7 +121,7 @@
     {
       "id": "california-vege",
       "title": "Каліфорнія Vege",
-      "image": "./../img/rolls/california-vege.jpg",
+      "image": "./img/rolls/california-vege.jpg",
       "price": 149,
       "quantity": 8,
       "weight": 270,
@@ -140,7 +140,7 @@
     {
       "id": "alaska-marinaded-salmon-onion-fila-cucmber",
       "title": "Аляска рол з маринованим лососем, цибулею, сиром філадельфія, огірком",
-      "image": "./../img/rolls/california-salmon-onion-cheesee.jpg",
+      "image": "./img/rolls/california-salmon-onion-cheesee.jpg",
       "price": 179,
       "quantity": 8,
       "weight": 260,
@@ -158,7 +158,7 @@
     {
       "id": "futomak-tuna-fila-salad-mango-cucmber",
       "title": "Футомак з тунцем, сиром філадельфія, салатом, манго та огірком",
-      "image": "./../img/maki/futomak-tuna-fila-salad-cucumber.jpg",
+      "image": "./img/maki/futomak-tuna-fila-salad-cucumber.jpg",
       "price": 189,
       "quantity": 8,
       "weight": 270,
@@ -176,7 +176,7 @@
     {
       "id": "futomak-tuna-spicy-maines",
       "title": "Футомак з тунцем та спайсі майонезом",
-      "image": "./../img/maki/futomak-tuna-spacy.jpg",
+      "image": "./img/maki/futomak-tuna-spacy.jpg",
       "price": 179,
       "quantity": 8,
       "weight": 285,
@@ -195,7 +195,7 @@
     {
       "id": "futomak-marinaded-salmon",
       "title": "Футомак з маринованим лососем",
-      "image": "./../img/maki/futomak-marinated-salmon.jpg",
+      "image": "./img/maki/futomak-marinated-salmon.jpg",
       "price": 169,
       "quantity": 8,
       "weight": 260,
@@ -212,7 +212,7 @@
     {
       "id": "futomak-salmon-salad-fila-avocado",
       "title": "Футомак з лососем, салатом, сиром філадельфія, авокадо",
-      "image": "./../img/maki/futomak-salmon-fila-avocado.jpg",
+      "image": "./img/maki/futomak-salmon-fila-avocado.jpg",
       "price": 189,
       "quantity": 8,
       "weight": 270,
@@ -230,7 +230,7 @@
     {
       "id": "futomak-vege",
       "title": "Футомак Vege",
-      "image": "./../img/maki/futomak-vege.jpg",
+      "image": "./img/maki/futomak-vege.jpg",
       "price": 149,
       "quantity": 8,
       "weight": 270,
@@ -248,7 +248,7 @@
     {
       "id": "maki-tuna",
       "title": "Макі з тунцем",
-      "image": "./../img/maki/maki-tuna.jpg",
+      "image": "./img/maki/maki-tuna.jpg",
       "price": 129,
       "quantity": 8,
       "weight": 165,
@@ -258,7 +258,7 @@
     {
       "id": "maki-cucmber-kunjut",
       "title": "Макі з огірком та кунжутом",
-      "image": "./../img/maki/maki-cucmbed-cunjut.jpg",
+      "image": "./img/maki/maki-cucmbed-cunjut.jpg",
       "price": 45,
       "quantity": 8,
       "weight": 175,
@@ -268,7 +268,7 @@
     {
       "id": "maki-marinaded-salmon",
       "title": "Макі з маринованим лососем",
-      "image": "./../img/maki/maki-marinaded-salmon.jpg",
+      "image": "./img/maki/maki-marinaded-salmon.jpg",
       "price": 129,
       "quantity": 8,
       "weight": 155,
@@ -278,7 +278,7 @@
     {
       "id": "maki-salmon-avocado",
       "title": "Макі з лососем та авокадо",
-      "image": "./../img/maki/maki-salmon-avocado.jpg",
+      "image": "./img/maki/maki-salmon-avocado.jpg",
       "price": 149,
       "quantity": 8,
       "weight": 175,
@@ -288,7 +288,7 @@
     {
       "id": "maki-salmon",
       "title": "Макі з лососем",
-      "image": "./../img/maki/maki-salmon.jpg",
+      "image": "./img/maki/maki-salmon.jpg",
       "price": 119,
       "quantity": 8,
       "weight": 155,
@@ -298,7 +298,7 @@
     {
       "id": "maki-avocado-fila",
       "title": "Макі з авокадо та сиром філадельфія",
-      "image": "./../img/maki/maki-avocado-fila.jpg",
+      "image": "./img/maki/maki-avocado-fila.jpg",
       "price": 39,
       "quantity": 8,
       "weight": 175,
@@ -309,7 +309,7 @@
     {
       "id": "set-fila-hot",
       "title": "Філадельфія сет Hot",
-      "image": "./../img/sets/set-fila-hot.jpg",
+      "image": "./img/sets/set-fila-hot.jpg",
       "price": 629,
       "quantity": 24,
       "weight": 840,
@@ -323,7 +323,7 @@
     {
       "id": "set-fila",
       "title": "Філадельфія сет",
-      "image": "./../img/sets/set-fila.jpg",
+      "image": "./img/sets/set-fila.jpg",
       "price": 599,
       "quantity": 24,
       "weight": 840,
@@ -337,7 +337,7 @@
     {
       "id": "set-favourite",
       "title": "Сет улюблений",
-      "image": "./../img/sets/set-favorite.jpg",
+      "image": "./img/sets/set-favorite.jpg",
       "price": 1000,
       "quantity": 48,
       "weight": 1450,
@@ -354,7 +354,7 @@
     {
       "id": "set-for-two",
       "title": "Сет на двох",
-      "image": "./../img/sets/set-for-two.jpg",
+      "image": "./img/sets/set-for-two.jpg",
       "price": 499,
       "quantity": 32,
       "weight": 985,
@@ -369,7 +369,7 @@
     {
       "id": "set-middle",
       "title": "Середній сет",
-      "image": "./../img/sets/set-middle.jpg",
+      "image": "./img/sets/set-middle.jpg",
       "price": 549,
       "quantity": 40,
       "weight": 1035,
@@ -385,7 +385,7 @@
     {
       "id": "set-mix",
       "title": "Мікс сет",
-      "image": "./../img/sets/set-mix.jpg",
+      "image": "./img/sets/set-mix.jpg",
       "price": 669,
       "quantity": 42,
       "weight": 1235,
@@ -402,7 +402,7 @@
     {
       "id": "set-vege",
       "title": "Вегетаріанський сет",
-      "image": "./../img/sets/set-fege.jpg",
+      "image": "./img/sets/set-fege.jpg",
       "price": 319,
       "quantity": 26,
       "weight": 690,
@@ -417,7 +417,7 @@
     {
       "id": "set-spicy",
       "title": "Spicy сет",
-      "image": "./../img/sets/set-spicy.jpg",
+      "image": "./img/sets/set-spicy.jpg",
       "price": 599,
       "quantity": 26,
       "weight": 915,
@@ -433,7 +433,7 @@
     {
       "id": "sushi-salmon-fry",
       "title": "Суші з лососем (обпалені)",
-      "image": "./../img/sushi/sushi-salmon.jpg",
+      "image": "./img/sushi/sushi-salmon.jpg",
       "price": 49,
       "quantity": 1,
       "weight": 40,
@@ -443,7 +443,7 @@
     {
       "id": "sushi-salmon",
       "title": "Суші з лососем",
-      "image": "./../img/sushi/sushi-salmon.jpg",
+      "image": "./img/sushi/sushi-salmon.jpg",
       "price": 45,
       "quantity": 1,
       "weight": 40,
@@ -453,7 +453,7 @@
     {
       "id": "sushi-eel",
       "title": "Суші з вугром (нігірі)",
-      "image": "./../img/sushi/sushi-eel.jpg",
+      "image": "./img/sushi/sushi-eel.jpg",
       "price": 55,
       "quantity": 1,
       "weight": 40,
@@ -463,7 +463,7 @@
     {
       "id": "sushi-eel-teriyaki-spicy",
       "title": "Суші з вугрем та гострим соусом теріякі",
-      "image": "./../img/sushi/sushi-eel.jpg",
+      "image": "./img/sushi/sushi-eel.jpg",
       "price": 59,
       "quantity": 1,
       "weight": 40,
@@ -479,7 +479,7 @@
     {
       "id": "sushi-avocado",
       "title": "Суші з авокадо (нігірі)",
-      "image": "./../img/sushi/sushi-avocado.jpg",
+      "image": "./img/sushi/sushi-avocado.jpg",
       "price": 39,
       "quantity": 1,
       "weight": 35,
@@ -489,7 +489,7 @@
     {
       "id": "sushi-gunkan",
       "title": "Гункан з тартаром, лососем та соусом Chilly",
-      "image": "./../img/sushi/sushi-guncan.jpg",
+      "image": "./img/sushi/sushi-guncan.jpg",
       "price": 65,
       "quantity": 1,
       "weight": 50,
@@ -500,7 +500,7 @@
     {
       "id": "apple-juice",
       "title": "Сік яблучний 1л",
-      "image": "./../img/drinks/apple-juice.jpg",
+      "image": "./img/drinks/apple-juice.jpg",
       "price": 65,
       "quantity": 1,
       "weight": 1000,
@@ -510,7 +510,7 @@
     {
       "id": "multi-juice",
       "title": "Сік мультифруктовий 1л",
-      "image": "./../img/drinks/multy-juice.jpg",
+      "image": "./img/drinks/multy-juice.jpg",
       "price": 65,
       "quantity": 1,
       "weight": 1000,
@@ -520,7 +520,7 @@
     {
       "id": "orange-juice",
       "title": "Сік апельсиновий 1л",
-      "image": "./../img/drinks/orange-juice.jpg",
+      "image": "./img/drinks/orange-juice.jpg",
       "price": 65,
       "quantity": 1,
       "weight": 1000,
