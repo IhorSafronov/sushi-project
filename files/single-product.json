@@ -3,7 +3,7 @@
     {
       "id": "fila-snow-crab",
       "title": "Філадельфія зі сніжним крабом сурімі",
-      "image": "./../img/rolls/fila-snow-crab.jpg",
+      "image": "./img/rolls/fila-snow-crab.jpg",
       "price": 240,
       "quantity": 8,
       "weight": 310,
@@ -20,7 +20,7 @@
     {
       "id": "fila-tuna-cucumber",
       "title": "Філадельфія з тунцем та огірком",
-      "image": "./../img/rolls/fila-tuna-cucumber.png",
+      "image": "./img/rolls/fila-tuna-cucumber.png",
       "price": 199,
       "quantity": 8,
       "weight": 285,
@@ -30,7 +30,7 @@
     {
       "id": "fila-salmon-avocado",
       "title": "Філадельфія з лососем та авокадо",
-      "image": "./../img/rolls/fila-salmon.jpg",
+      "image": "./img/rolls/fila-salmon.jpg",
       "price": 199,
       "quantity": 8,
       "weight": 270,
@@ -40,7 +40,7 @@
     {
       "id": "fila-eel",
       "title": "Філадельфія з вугром",
-      "image": "./../img/rolls/fila-eel.jpg",
+      "image": "./img/rolls/fila-eel.jpg",
       "price": 219,
       "quantity": 8,
       "weight": 285,
@@ -50,7 +50,7 @@
     {
       "id": "fila-double-hesse",
       "title": "Філадельфія Double Cheese",
-      "image": "./../img/rolls/fila-double-cheese.jpg",
+      "image": "./img/rolls/fila-double-cheese.jpg",
       "price": 245,
       "quantity": 8,
       "weight": 345,
@@ -66,7 +66,7 @@
     {
       "id": "panda-roll",
       "title": "Панда рол",
-      "image": "./../img/rolls/panda.jpg",
+      "image": "./img/rolls/panda.jpg",
       "price": 189,
       "quantity": 8,
       "weight": 260,
