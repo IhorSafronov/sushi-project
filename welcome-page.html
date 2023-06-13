@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+
+<head>
+	<title>welcome-page</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230613171442">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- head -->
+
+<body>
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item _icon-location">
+								<a href="https://goo.gl/maps/mUPrznuu8TijBhZMA" class="menu__link">
+									м. Дніпро
+								</a>
+							</li>
+							<li class="menu__item">
+								<p>
+									Часи роботи: з
+									<span>10:00</span>
+									до
+									<span>21:30</span>
+								</p>
+							</li>
+							<li class="menu__item">
+								<p>
+									Працюємо
+									<span>без вихідних!</span>
+								</p>
+							</li>
+						</ul>
+						<ul class="menu__list">
+							<li class="menu__item">
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<!-- <button type="button" data-spoller class="spollers__title">
+                  Зателефонуй нам data-da=".body-bot, 768, 3"
+                </button> -->
+										<div class="spollers__body">
+											<a href="tel:+380501018565" class="body-mid__link _icon-phone">
+												<span>+38 (050) 101 8565</span>
+											</a>
+											<a href="tel:+380730585857" class="body-mid__link _icon-phone">
+												<span>+38 (073) 058 5857</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item">
+								<div class="body-mid__link-insta _icon-instagramm-header">
+									<a href="https://www.instagram.com/grain_of_rice_dp/" target="_blank">
+										<span>@grain_of_rice_dp</span>
+									</a>
+								</div>
+							</li>
+							<li class="menu__item">
+								<div class="body-mid__link-telega _icon-telegramm-header">
+									<a href="https://t.me/grain_of_rice_ua" target="_blank">
+										<span>@grain_of_rice_dp</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__bot">
+						<div class="header-bot__body body-bot">
+							<div class="body-bot__logo">
+								<a href="./index.html">
+									<img src="img/icon/logo.svg" alt="logo" />
+								</a>
+							</div>
+							<div class="body-bot__cart cart-body">
+								<a href="./cart-page.html" id="add-to-cart" class="cart-body__link _icon-cart">
+									<span id="cart-total">0 ₴</span>
+								</a>
+							</div>
+							<button type="button" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- header -->
+
+		<main class="page">
+			<section class="page-welcome welcome-page">
+				<div class="welcome-page__container">
+					<div class="welcome-page__title">
+						<h2>Замовлення отримано</h2>
+					</div>
+					<div class="welcome-page__text">
+						<p>
+							Дякуємо! Ваше замовлення прийнято. Очікуйте, скоро наш менеджер
+							зв'яжеться з Вами.
+						</p>
+					</div>
+					<div class="welcome-page__info-block info-block">
+						<div class="info-block__description description-block">
+							<div class="description-block__line">
+								<p class="main-text">номер замовлення</p>
+								<p id="order-number"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">дата замовлення</p>
+								<p id="date-time"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">Ім`я</p>
+								<p id="name"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">Телефон</p>
+								<p id="phone"></p>
+							</div>
+						</div>
+
+						<div class="info-block__description description-block">
+							<div class="description-block__line">
+								<p class="main-text">Спосіб отримання</p>
+								<p id="delivery"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">Спосіб оплати</p>
+								<p id="payment"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">Адреса</p>
+								<p id="address"></p>
+							</div>
+						</div>
+						<div class="info-list">
+							<p class="main-text">Замовлення:</p>
+							<p class="products-message" id="products-message"></p>
+						</div>
+						<div class="info-block__description description-block">
+							<div class="description-block__line">
+								<p class="main-text">Кількість приборів:</p>
+								<p id="utensils"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">Нотатки</p>
+								<p id="info"></p>
+							</div>
+						</div>
+						<div class="info-block__description description-block">
+							<div class="description-block__line">
+								<p class="main-text">Сума замовлення:</p>
+								<p id="total-sum"></p>
+							</div>
+							<div class="description-block__line">
+								<p class="main-text">Сума доставки:</p>
+								<p id="delivery-price-welcome"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- footer -->
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__logo">
+						<a href="./index.html"><img src="img/icon/logo.svg" alt="logo" /></a>
+					</div>
+					<div class="footer__contacts contacts-footer">
+						<div class="contacts-footer__title">
+							<h4>Контакти</h4>
+						</div>
+						<div class="contacts-footer__phone">
+							<a href="tel:+380501018565" class="body-mid__link _icon-phone">
+								<span>+38 (050) 101 8565</span>
+							</a>
+						</div>
+						<div class="contacts-footer__phone">
+							<a href="tel:+380730585857" class="body-mid__link _icon-phone">
+								<span>+38 (073) 058 5857</span>
+							</a>
+						</div>
+						<div class="contacts-footer__adress _icon-location">
+							<a href="https://goo.gl/maps/MSR1exfDL59ojxfi8">вул Дунаєвського, 32</a>
+						</div>
+						<div class="contacts-footer__insta _icon-instagramm-header">
+							<a href="https://www.instagram.com/grain_of_rice_dp/" target="_blank">
+								<span>@grain_of_rice_dp</span>
+							</a>
+						</div>
+						<div class="contacts-footer__telega _icon-telegramm-header">
+							<a href="https://t.me/grain_of_rice_ua" target="_blank">
+								<span>@grain_of_rice_dp</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- footer -->
+		</main>
+	</div>
+	<!-- scripts -->
+	<script src="js/app.min.js?_v=20230613171442"></script>
+	<!-- scripts -->
+</body>
+
+</html>
